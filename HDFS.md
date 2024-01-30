@@ -8,3 +8,30 @@
 - storage `can store large amounts of data`
 - portability `multi-platform support`
 - scalability `scaled into hundreds of nodes`
+
+## HDFS concepts
+- **Block** the minimum amount of data that can be `read` or `written` and `provides fault tolerance`
+- **Node** single system resposible for storig and processing data 
+- **Rack** a collection of `40` to `50` nodes used a an instance
+
+## Hadoop Distributions
+- Cloudera Hadoop Distribution `cisco, masercard`
+- Horton/works `samsung, spotify, eBay`
+- MapR
+- IBM infosphere BigInsights 
+- Microsoft Azure HDInsight Cloud based
+
+### Advantages
+Support available in:
+1. packaging
+2. complete setup; reliability, integrated release, bug fixes
+3. Life cycle building
+
+**Hadoop Admins** delevop custim clusters for the system.
+## characteristics of HDFS
+
+- fault replication -- replication to ensure fault tolerance
+- scaling - vertical or horizontal `allows for unlimited expansion`
+- Rack aware - better cluster performance `readability across racks`, `uniform content within the same racks`
+- heterogeneous clusters -- multiple data types
+- build for large datasets -- default size for storing and reading data to ensure storage and retrieval low latency
