@@ -65,3 +65,9 @@ Apache spark is n open source processing engine to
 5. `Analysis tools` better analytics
 
 ## components of SPARK
+
+1. SPARK core
+2. SPARK SQL
+3. SPARK Streaming
+4. SPARK MLlib
+5. SPARK GraphX
