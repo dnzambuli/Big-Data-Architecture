@@ -59,6 +59,10 @@ Apache spark is n open source processing engine to
 ## FEATURES of SPARK
 
 1. `Resilient Distributed Dataset` -- saves time taken reading and writing. Runs ten to hundred times faster. *Works on the ram*
+
+immutable fault tolerant 
+
+distributed connections
 2. `in memory computing` -- data is stored in the **RAM** allows quick access and speedy analytics
 3. `multi language support`
 4. `failure proofing` through RDD
@@ -66,8 +70,16 @@ Apache spark is n open source processing engine to
 
 ## components of SPARK
 
-1. SPARK core
-2. SPARK SQL
+1. SPARK core -- base engine, parallel and distributed processing
+manages memory
+
+fault recovery
+
+scheduling and distributing and monitoring clusters
+
+interact with storage systems
+2. SPARK SQL -- process structured and semi structured data
+
 3. SPARK Streaming
 4. SPARK MLlib
 5. SPARK GraphX
