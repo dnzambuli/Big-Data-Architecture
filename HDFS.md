@@ -35,3 +35,27 @@ Support available in:
 - Rack aware - better cluster performance `readability across racks`, `uniform content within the same racks`
 - heterogeneous clusters -- multiple data types
 - build for large datasets -- default size for storing and reading data to ensure storage and retrieval low latency
+
+# Big Data Frameworks
+
+## Spark
+Apache spark is n open source processing engine to 
+
+- store
+
+- process data in real-time
+
+- Uses simple programming clusters
+
+## History
+**amp lab** 2009
+
+**BSD** 2010
+
+**apache** 2013
+
+**Databricks** 2014 -- sort large scale data sets 
+
+## FEATURES of SPARK
+
+1. `Resilient Distributed Dataset` -- saves time taken reading and writing. Runs ten to hundred times faster
